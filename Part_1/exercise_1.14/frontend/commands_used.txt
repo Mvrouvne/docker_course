@@ -1,0 +1,3 @@
+docker build example-frontend -t frontend
+
+docker run -p 5050:5050 frontend

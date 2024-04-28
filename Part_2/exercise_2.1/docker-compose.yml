@@ -1,8 +1,0 @@
-version: '3.8'
-
-services:
-
-    devopsdockeruh:
-        build: .
-        volumes:
-            - ./text.log:/usr/src/app/text.log
