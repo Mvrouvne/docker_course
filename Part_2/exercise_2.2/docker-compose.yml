@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+    webservice:
+        build: .
+        command: server
+        ports:
+            - "9090:8080"
