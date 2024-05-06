@@ -1,0 +1,5 @@
+This is a little Bitcoin Price Checker program built fully in C++ language, its goal is to enter a date in the standart output, and the program returns the price of Bitcoin in that certain date in US dollars
+
+After pulling the image --> 'docker pull mvrouvne/bitcoinpricechecker'
+
+Run --> 'docker run -it mvrouvne/bitcoinpricechecker' and give the date as the format requested
